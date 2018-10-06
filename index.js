@@ -23,9 +23,9 @@ document.getElementById('game-board').addEventListener('click', (event) => {
 })
 
 document.getElementById('guess-options').addEventListener('click', (event) => {
-    const twochainzImg = document.getElementById('blanktwochainz');
+    const twochainzImg = document.getElementById('twochainz');
     if (event.target.id === 'twochainz-guess') {
-        twochainzImg.id = 'twochainz';
+        //make it not blank and put correct pic
     }
 })
 function winGame(num){

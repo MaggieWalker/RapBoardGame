@@ -25,7 +25,7 @@ figcaption {
   flex-direction: row;
 }
 
-.blank {
+.rapper {
   background-image: url("./srcs/www.therapboard.com/images/Blank.png");
   background-size: contain;
   width: 110px;
