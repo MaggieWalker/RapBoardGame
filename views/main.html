@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RapBoard Game</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <script src="/index.js" defer></script>
+</head>
+<body> 
+  <h1 id="gameTitle">Can You Say...</h1>
+  <div id="game-board">
+    <div id='twochainz' class="rapper"></div>
+      <audio preload="none" id="twochainzAud" class="twochainz">
+        <source src="/srcs/www.therapboard.com/audio/2chainz_4.ogg" type="audio/ogg">
+      </audio>
+
+    <div id='bigsean' class="rapper"></div>
+      <audio preload="none" id="bigseanAud" class="bigsean">
+        <source src="/srcs/www.therapboard.com/audio/bigsean_ohgod.ogg" type="audio/ogg">
+      </audio>
+
+    <div id='eforty' class="rapper"></div>
+      <audio preload="none" id="efortyAud" class="eforty">
+        <source src="/srcs/www.therapboard.com/audio/e40_1.ogg" type="audio/ogg">
+      </audio>
+
+    <div id='chance' class="rapper"></div>
+        <audio preload="none" id="chanceAud" class="chance">
+          <source src="/srcs/www.therapboard.com/audio/chance_workedout.ogg" type="audio/ogg">
+        </audio>
+
+    <div id='tpain' class="rapper"></div>
+        <audio preload="none" id="tpainAud" class="tpain">
+          <source src="/srcs/www.therapboard.com/audio/tpain_2.ogg" type="audio/ogg">
+        </audio>
+
+    <div id='waka' class="rapper"></div>
+        <audio preload="none" id="wakaAud" class="waka">
+          <source src="/srcs/www.therapboard.com/audio/waka_1.ogg" type="audio/ogg">
+        </audio>
+  </div>
+  <br />
+  <div id='guess-options'>
+    <figure>
+      <img src='/srcs/www.therapboard.com/images/bigsean.png' >
+      <figcaption><h4>Big Sean</h4></figcaption>
+    </figure>
+    <figure>
+      <img src='/srcs/www.therapboard.com/images/chance.png' >
+      <figcaption><h4>Chance The Rapper</h4></figcaption>
+    </figure>
+    <figure>
+        <img src='/srcs/www.therapboard.com/images/eforty.png' >
+        <figcaption><h4>E-40</h4></figcaption>
+    </figure>
+    <figure>
+      <img src='/srcs/www.therapboard.com/images/tpain.png' >
+      <figcaption><h4>T-Pain</h4></figcaption>
+    </figure>
+    <figure>
+        <img src='/srcs/www.therapboard.com/images/twochainz.png' >
+        <figcaption><h4 id='twochainz-guess'>2Chainz</h4></figcaption>
+    </figure>
+    <figure>
+        <img src='/srcs/www.therapboard.com/images/waka.png' >
+        <figcaption><h4>Waka Flocka</h4></figcaption>
+    </figure>
+      
+  </div>
+
+</body>
+</html>

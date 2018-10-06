@@ -1,0 +1,86 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+figcaption {
+  text-align: center;
+}
+
+#game-board {
+  background-color: rgba(251, 255, 0, 0.87);
+  border: solid 20px #000;
+  padding: 20px;
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#guess-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.blank {
+  background-image: url("./srcs/www.therapboard.com/images/Blank.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#twochainz {
+  background-image: url("./srcs/www.therapboard.com/images/twochainz.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#bigsean {
+  background-image: url("./srcs/www.therapboard.com/images/bigsean.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#eforty {
+  background-image: url("./srcs/www.therapboard.com/images/eforty.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#chance {
+  background-image: url("./srcs/www.therapboard.com/images/chance.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#tpain {
+  background-image: url("./srcs/www.therapboard.com/images/tpain.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+#waka {
+  background-image: url("./srcs/www.therapboard.com/images/waka.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+.mole {
+  background-image: url("images/mole.png");
+}
